@@ -30,7 +30,7 @@ Exploring OpenAI APIs: Test out various models from OpenAI using their Python AP
     $ cp env.openai .env                           $ copy env.openai .env     (windonws)
     $ npm run server
     ```
-
+node v16.x.x
 <br>
 
 # Model 
