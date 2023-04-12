@@ -31,7 +31,8 @@ Exploring OpenAI APIs: Test out various models from OpenAI using their Python AP
 
 <br>
 
-# How to change Model
+# Model 
+gpt-3.5-turbo is used in default code. but you can change any model like thks:
 1. Check model list in [here](https://github.com/dsdanielpark/openai-chatbot/blob/main/scripts/api_test.ipynb)
 2. Change api model name in `./server/server.js`
 
