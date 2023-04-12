@@ -32,6 +32,12 @@ Exploring OpenAI APIs: Test out various models from OpenAI using their Python AP
 
 <br>
 
+# How to change Model
+1. Check model list in [here](https://github.com/dsdanielpark/openai-chatbot/blob/main/scripts/api_test.ipynb)
+2. Change api model name in `./server/server.js`
+
+<br>
+
 # References
 [1] https://platform.openai.com/account/api-keys <br>
 [2] https://platform.openai.com/docs/api-reference/authentication
