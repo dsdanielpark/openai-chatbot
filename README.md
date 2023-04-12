@@ -1,6 +1,6 @@
 Development Status :: 2 - Pre-Alpha
 
-# Open AI API
+# Open AI Chatbot API
 Exploring OpenAI APIs: Test out various models from OpenAI using their Python APIs, and learn how they function. Then, deploy a custom-trained model to enhance your project.
 ```
 > node --version
