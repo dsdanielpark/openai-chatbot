@@ -4,6 +4,10 @@ Development Status :: 2 - Pre-Alpha
 Exploring OpenAI APIs: Test out various models from OpenAI using their Python APIs, and learn how they function. Then, deploy a custom-trained model to enhance your project.
 
 - 01/23/2023 Important Notice: Due to the current OpenAI API policy, we are unable to view the inference results.
+```
+> node --version
+v16.15.0
+```
 
 <br>
 
@@ -42,7 +46,7 @@ $ npm run deploy
     $ cp env.openai .env                           $ copy env.openai .env     (windonws)
     $ npm run server
     ```
-node v16.x.x
+
 <br>
 
 # Model 
