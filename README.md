@@ -43,7 +43,7 @@ $ npm run deploy
     ```cmd
     $ cd server
     $ npm install
-    $ cp .env.openai .env                           $ copy .env.openai .env (windonws)   $ export OPENAI_API_KEY=xxxxxxxx
+    $ cp .env.openai .env                           $ copy .env.openai .env (windonws)   $ export OPENAI_API_KEY=xxxxxxxx $ SET OPENAI_API_KEY=xxxxxxxx (windows)
     $ npm run server
     ```
 
