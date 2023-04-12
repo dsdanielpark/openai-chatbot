@@ -17,7 +17,7 @@ v16.15.0
 $ git clone https://github.com/dsdanielpark/openai-chatbot
 $ cd openai-chatbot
 $ npm install
-$ cp .env.openai .env 
+$ export OPENAI_API_KEY=xxxxxxxx
 $ npm run deploy
 ```
 
@@ -43,7 +43,7 @@ $ npm run deploy
     ```cmd
     $ cd server
     $ npm install
-    $ cp .env.openai .env                           $ copy .env.openai .env     (windonws)
+    $ cp .env.openai .env                           $ copy .env.openai .env (windonws)   $ export OPENAI_API_KEY=xxxxxxxx $ SET OPENAI_API_KEY=xxxxxxxx (windows)
     $ npm run server
     ```
 
