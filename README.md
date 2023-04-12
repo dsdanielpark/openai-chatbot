@@ -12,7 +12,6 @@ Exploring OpenAI APIs: Test out various models from OpenAI using their Python AP
     $ cd openai-chatbot
     ```
 
-
 2. Set Client Side
     ```cmd
     $ cd client 
