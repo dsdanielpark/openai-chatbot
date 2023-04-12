@@ -122,7 +122,7 @@ const handleSubmit = async (e) => {
     typeText(messageDiv, parsedData);
   } else {
     const err = response.text();
-    messageDiv.innerHTML = "Status: Error";
+    messageDiv.innerHTML = "HTTP 500 Internal Server Error: \n Check Status https://status.openai.com \n Check API Error Code Guidance https://help.openai.com/en/articles/6891839-api-error-code-guidance \n\n This Errors caused by OpenAI's increase in API users and conversion to paid policies, not errors from code.";
     console.log(err);
   }
 }
