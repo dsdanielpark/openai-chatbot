@@ -129,3 +129,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 server/.env.private
+.env.private
