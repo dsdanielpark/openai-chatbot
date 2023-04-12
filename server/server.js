@@ -3,6 +3,8 @@ import * as dotenv from "dotenv";
 import cors from "cors";
 import { Configuration, OpenAIApi } from "openai";
 
+
+
 dotenv.config();
 
 const port = 5000;
@@ -19,7 +21,7 @@ app.use(express.json());
 
 app.get('/', async (req, res) => {
     res.status(200).send({
-        message: 'API Model: text-davinci-003 has been lunched.',
+        message: 'API Model: gpt-3.5-turbo has been lunched.',
     })
 });
 
@@ -27,7 +29,7 @@ app.post('/', async (req, res) => {
     try {
         const prompt = req.body.prompt;
         const response = await openai.createCompletion({
-            model: "text-davinci-003",
+            model: "gpt-3.5-turbo",
             prompt: `${prompt}`,
             temperature: 0,
             max_tokens: 3000,
