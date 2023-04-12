@@ -13,9 +13,8 @@ Exploring OpenAI APIs: Test out various models from OpenAI using their Python AP
 $ git clone https://github.com/dsdanielpark/openai-chatbot
 $ cd openai-chatbot
 $ npm install
-$ npm run dev
 $ cp env.openai .env 
-$ npm run server
+$ npm run deploy
 ```
 
 <br>
