@@ -3,6 +3,8 @@ Development Status :: 2 - Pre-Alpha
 # Python Open AI API
 Exploring OpenAI APIs: Test out various models from OpenAI using their Python APIs, and learn how they function. Then, deploy a custom-trained model to enhance your project.
 
+- 01/23/2023 Important Notice: Due to the current OpenAI API policy, we are unable to view the inference results.
+
 <br>
 
 # Quick Start
