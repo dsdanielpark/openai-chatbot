@@ -11,7 +11,7 @@ $ cd openai-chatbot
 
 
 2. Set Client Side
-```
+```cmd
 $ cd client 
 $ npm install
 $ npm run dev
@@ -19,9 +19,9 @@ $ npm run dev
 
 3. Set Server Side
 - Before running server side, enter your own OPEN AI API Key to `.env.openai`
-```
+```cmd
 $ cd server
 $ npm install
-$ cp ./server/.env.openai .env 
+$ cp env.openai .env                           $ copy env.openai .env     (windonws)
 $ npm run server
 ```
