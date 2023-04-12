@@ -1,6 +1,6 @@
 Development Status :: 2 - Pre-Alpha
 
-# Python Open AI API
+# Open AI API
 Exploring OpenAI APIs: Test out various models from OpenAI using their Python APIs, and learn how they function. Then, deploy a custom-trained model to enhance your project.
 ```
 > node --version
