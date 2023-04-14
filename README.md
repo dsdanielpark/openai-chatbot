@@ -1,4 +1,6 @@
-Development Status :: 2 - Pre-Alpha
+Development Status :: 3 - Alpha <br>
+*Copyright (c) 2023 MinWoo Park*
+<br>
 
 # Open AI Chatbot API
 Exploring OpenAI APIs: Test out various models from OpenAI using their Python APIs, and learn how they function. Then, deploy a custom-trained model to enhance your project.
